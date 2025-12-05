@@ -13,7 +13,7 @@ contract CILTrap is ITrap {
     address public constant WATCHED_ADDRESS = 0xc9e1c01f8a67e850BCa0178599F968d48B2A43e4;
 
     IERC20 private constant SILBAL = IERC20(SILBAL_TOKEN_ADDRESS);
-
+ 
     struct Action {
         uint256 watchedBalance;
     }
