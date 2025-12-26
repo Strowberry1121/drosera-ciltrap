@@ -15,7 +15,7 @@ contract CILTrap is ITrap {
     IERC20 private constant SILBAL = IERC20(SILBAL_TOKEN_ADDRESS);
  
     struct Action {
-        uint256 watchedBalance;
+        uint256 watchedBalance; 
     }
 
     function collect() external view override returns (bytes memory) {
