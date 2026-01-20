@@ -22,7 +22,7 @@ contract CILTrap is ITrap {
         Action memory snapshot = Action({
             watchedBalance: SILBAL.balanceOf(WATCHED_ADDRESS)
         });
-        return abi.encode(snapshot);
+        return abi.encode(snapshot); 
     }
 
     function shouldRespond(bytes[] calldata data) external pure override returns (bool, bytes memory) {
